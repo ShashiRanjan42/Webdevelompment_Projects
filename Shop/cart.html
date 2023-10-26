@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cart</title>
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <section id="header">
+        <a href="index.html"><img class="logo" src="image/logo.png" alt="Brand logo" height="100px" width="100px"></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Shop.html">shop</a></li>
+                <li><a href="Blog.html">Blog</a></li>
+                <li><a href="About.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li id="lg-bag"><a class="active" href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <i id="bar" style="margin-right: 25px;"><i class="fa-solid fa-bars"></i></i>
+            <i id="barcart" class="mobilecart"><i class="fa-solid fa-cart-shopping"></i></i>
+            <a href="index.html"><img class="mobilelogo" src="image/logo.png" alt="Brand logo" height="100px"
+                    width="100px"></a>
+
+        </div>
+        </div>
+    </section>
+
+    <!-- Section cart -->
+    <!-- <section>
+        <div>
+            <img src="image/pexels-shvets-production-7195232.jpg" alt="Shop img" width="100%" height="300vh">
+        </div>
+    </section> -->
+
+
+    <!-- Section cart -->
+    <section class="section-p1">
+        <h2 style="color: #3a4f7a; text-decoration:underline #ffc6d3">Shoping Cart</h2>
+    </section>
+
+    <!-- table -->
+
+    <!-- <section id="cart-section" class="section-p1">
+        <div>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <td>Remove</td>
+                        <td>Image</td>
+                        <td>Product</td>
+                        <td>Price</td>
+                        <td>Quantity</td>
+                        <td>Total</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr id="cart-row">
+                        <td><a href="#" class="" id=""><i class="icon fa-solid fa-trash cart-remove "></i></a></td>
+                        <td> <img src="image/Shirt1.webp" width="100px" height="130px"></td>
+                        <td><h5>The Flintstones: Pattern</h5></td>
+                        <td><h5><i class="fa-solid fa-rupee-sign"></i> 1099</h5></td>
+                        <td><input style=" width: 40px; height: 35px;" type="number" value="1"></td>
+                        <td><h5><i class="fa-solid fa-rupee-sign"></i> 1099</h5></td>
+                        
+                    </tr>
+                    
+                </tbody>
+            </table>
+            <div>
+                <div>
+                    <a href="#" class="" id=""><i class="icon fa-solid fa-trash cart-remove "></i></a>
+                     <img src="image/Shirt1.webp" width="100px" height="130px">
+                    <h5>The Flintstones: Pattern</h5>
+                    <h5><i class="fa-solid fa-rupee-sign"></i> 1099</h5>
+                    <input style=" width: 40px; height: 35px;" type="number" value="1">
+                    <h5><i class="fa-solid fa-rupee-sign"></i> 1099</h5>
+                    
+
+                </div>
+            </div>
+
+            <section id="buy-section" class="buy">
+        
+                <div>
+                    <h5 style="text-align: start;" >Cart total</h5>
+                </div>
+                <div style="border: 1px solid #b6b3b3">
+                    <div style="display: flex; justify-content: space-between;padding-right: 15px;">
+                        <h6>Subtotal</h6>
+                        <p><i class="fa-solid fa-rupee-sign"></i> 1099</p>
+                    </div>
+                    <div style="display: flex; justify-content: space-between;padding-right: 15px;">
+                        <h6>Shiping</h6>
+                        <p><i class="fa-solid fa-rupee-sign"></i> 50</p>
+                    </div>
+                </div>
+                <div style="display: flex; justify-content: space-between; padding-right: 15px; border: 1px solid #b6b3b3">
+                    <h6>Total</h6>
+                    <p><i class="fa-solid fa-rupee-sign"></i> 1149</p>
+                </div>
+                
+                <button class="btn-buy">Buy Now</button>
+            </section>
+        
+        </div>
+    </section> -->
+
+
+    <section class="cart-header-item23 section-p1">
+        <!-- <div class="cart-row">
+            <span class="cart-item cart-header cart-column">ITEM</span>
+            <span class="cart-price cart-header cart-column">PRICE</span>
+            <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+        </div>
+        <div class="cart-items">
+            <div class="cart-row">
+                <div class="cart-item cart-column">
+                    <img class="cart-item-image" src="image/Shirt1.webp" width="100" height="100">
+                    <span class="cart-item-title">T-Shirt</span>
+                </div>
+                <span class="cart-price cart-column"><i class="fa-solid fa-rupee-sign"></i> 1099</span>
+                <div class="cart-quantity cart-column">
+                    <input class="cart-quantity-input" type="number" value="1">
+                    <button class="btn-remove btn-danger" type="button" style="margin-left: 20%; margin-bottom: 5%;">REMOVE</button>
+                </div>
+            </div>
+            <div class="cart-row">
+                <div class="cart-item cart-column">
+                    <img class="cart-item-image" src="image/shirt2.webp" width="100" height="100">
+                    <span class="cart-item-title">Album 3</span>
+                </div>
+                <span class="cart-price cart-column"><i class="fa-solid fa-rupee-sign"></i> 1099</span>
+                <div class="cart-quantity cart-column">
+                    <input class="cart-quantity-input" type="number" value="2">
+                    <button class="btn-remove  btn-danger" type="button" style="margin-left: 20%; margin-bottom: 5%;">REMOVE</button>
+                </div>
+            </div>
+        </div> -->
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column">ITEM</span>
+            <span class="cart-price cart-header cart-column">PRICE</span>
+            <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+        </div>
+        <div class="cart-items">
+        </div>
+        <div class="cart-total">
+            <strong class="cart-total-title">Total</strong>
+            <span class="cart-total-price"><i class="fa-solid fa-rupee-sign"></i> 0</span>
+        </div>
+        <button class="btn-buy btn-purchase" type="button" style="margin-left: 50%;">PURCHASE</button>
+    </section>
+
+
+
+
+
+
+
+    <!-- Footer -->
+    <section id="footer" class="section-p1">
+        <div class="foot">
+            <div class="col">
+                <a href="index.html"><img class="logo" src="image/logo.png" alt="Brand logo" height="100px"
+                        width="100px"></a>
+                <h4><strong>Contact</strong></h4>
+                <p><strong>Address:</strong> Madhuban East-Champaran, Bihar</p>
+                <p><strong>Phone:</strong> +01 2222 365 / (+91) 01 2345 6789</p>
+                <p><strong>Hours:</strong> 10:00 - 18:00, Mon - Sat</p>
+                <div class="follow">
+                    <h4><strong>Follow Us</strong></h4>
+                    <div class="icon">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <h4><strong>About</strong></h4>
+                <a class="btntt" href="#">About Us</a>
+                <a class="btntt" href="#">Delivery Information</a>
+                <a class="btntt" href="#">Privacy Policies</a>
+                <a class="btntt" href="#">Terms & Condition</a>
+                <a class="btntt" href="#">Contact Us</a>
+            </div>
+
+            <div class="col">
+                <h4><strong>Account</strong></h4>
+                <a class="btntt" href="#">Sign In</a>
+                <a class="btntt" href="#">View Cart</a>
+                <a class="btntt" href="#">My Wishlist</a>
+                <a class="btntt" href="#">Track My Order</a>
+                <a class="btntt" href="#">Help</a>
+            </div>
+
+            <div class="col">
+                <h4><strong>Install App</strong></h4>
+                <p>From App Store and Google Play</p>
+                <div class="row">
+                    <!-- <img src="image/play.png" alt=""width="11%" style="padding-right: 10px;">
+                    <img src="image/app.png" alt="" width="10%"> -->
+                    <button class="btn"><a class="btnt" href="#"><i class="fa-brands fa-google-play"></i> Play
+                            Store</a></button>
+                    <button class="btn"><a class="btnt" href="#"><i class="fa-brands fa-apple"></i> APP
+                            Store</a></button>
+
+                </div>
+                <p style="padding: 20px 0px">Secure Payment Gateway</p>
+                <div class="row">
+                    <!-- <img src="image/pay.png" alt="" class="" width="30%"> -->
+                    <i style="padding: 0px 5px;" class="icon fa-brands fa-google-pay fa-2x"></i>
+                    <i style="padding: 0px 5px;" class="icon fa-brands fa-amazon-pay fa-2x"></i>
+                    <i style="padding: 0px 5px;" class="icon fa-brands fa-paypal fa-2x"></i>
+                    <i style="padding: 0px 5px;" class="icon fa-brands fa-cc-mastercard fa-2x"></i>
+                </div>
+            </div>
+            <div class="copyright">
+                <p><i class="fa-solid fa-copyright"></i> 2023 HTML CSS Website Ecomerse By Shashi ranjan</p>
+            </div>
+        </div>
+
+    </section>
+
+    <script src="script.js" charset="utf-8"></script>
+</body>
+
+</html>

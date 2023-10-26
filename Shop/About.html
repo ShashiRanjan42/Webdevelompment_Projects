@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="fontawesome\css\swiper-bundle.min.css">
+
+</head>
+
+<body>
+    <section id="header">
+        <a href="index.html"><img class="logo" src="image/logo.png" alt="Brand logo" height="100px" width="100px"></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Shop.html">shop</a></li>
+                <li><a href="Blog.html">Blog</a></li>
+                <li><a class="active" href="About.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <!-- <li id="lg-bag"><a href="#" class="cartt-icon" ><i class="fa-solid fa-cart-shopping"></i></a></li> -->
+                <li id="lg-bag"><i class="fa-solid fa-cart-shopping fa-2x cartt-icon"></i></li>
+                <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <i id="bar" style="margin-right: 25px;"><i class="fa-solid fa-bars"></i></i>
+            <i id="barcart" class="mobilecart"><i class="fa-solid fa-cart-shopping carttt-icon"></i></i>
+            <a href="index.html"><img class="mobilelogo" src="image/logo.png" alt="Brand logo" height="100px" width="100px"></a>
+
+        </div>
+        </div>
+
+        <div class="cartt">
+            <h2 style="color: #3a4f7a; text-decoration:underline #ffc6d3; margin: 50px 0;">Shoping Cart</h2>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                <span class="cart-price cart-header cart-column">PRICE</span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            </div>
+            <div class="cart-items">
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price"><i class="fa-solid fa-rupee-sign"></i> 0</span>
+            </div>
+            <button class="btn-buy btn-purchase" type="button" style="margin-left: 30%;">PURCHASE</button>
+            <a href="#" id="cartt-close"><i class="fa-solid fa-xmark fa-2x"></i></a>
+        </div>
+
+
+
+    </section>
+
+    <!-- section 2 -->
+    <section>
+        <div>
+            <img src="image/usa-g9620fae19_1920.jpg" alt="Shop img" width="100%" height="300vh">
+        </div>
+    </section>
+
+
+
+    <section id="About-page">
+        <div class="About-row">
+            <img class="About-image1" src="image/logo1.png">
+            <!-- <h3><span class="Ele">SweatShirts & Sweaters</span></h3> -->
+            <span style="margin-top: 10%;"> Shop Website is basically made for shoping of cloths now days, but later on we add more feature in this like you buy Electronics items, Grocery items</span>
+        </div>
+    </section>
+
+    <section class="section-p1" style="margin-top: 5%;">
+        <h2 style="text-align: center; color: #3a4f7a; text-decoration:underline #ffc6d3">Our Shop</h2>
+    </section>
+
+    <!-- Swiper -->
+    <section id="categories" class="section-p1">
+        <!-- <h2 class="heading2">Categories</h2> -->
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="show/show1.jpg" alt="Collectionimg"></div>
+                <div class="swiper-slide"><img src="show/show2.jpg" alt="Collectionimg"></div>
+                <div class="swiper-slide"><img src="show/show3.jpg" alt="Collectionimg"></div>
+                <div class="swiper-slide"><img src="show/show4.jpg" alt="Collectionimg"></div>
+                <div class="swiper-slide"><img src="show/show5.jpg" alt="Collectionimg"></div>
+                <div class="swiper-slide"><img src="show/show6.jpg" alt="Collectionimg"></div>
+                <div class="swiper-slide"><img src="show/show7.jpg" alt="Collectionimg"></div>
+                <div class="swiper-slide"><img src="show/show8.jpg" alt="Collectionimg"></div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+        <!-- Swiper JS -->
+        <script src="javascript/swiper-bundle.min.js"></script>
+
+        <!-- Initialize Swiper -->
+        <script>
+            var swiper = new Swiper(".mySwiper", {
+                slidesPerView: 1,
+                spaceBetween: 15,
+                slidesPerGroup: 1,
+                loop: true,
+                loopFillGroupWithBlank: true,
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+            });
+        </script>
+    </section>
+
+
+
+    <script src="script.js" charset="utf-8"></script>
+</body>
+
+</html>
